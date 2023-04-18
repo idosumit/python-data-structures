@@ -9,9 +9,9 @@ Easy explanation for Tuple, List, Set, and Dictionary in Python
 
 ### Ordering and Indexing
 
-| Data Structure | Ordering | Indexing |
-|----------------|----------|----------|
-| List           | Yes      | Yes      |
-| Tuple          | Yes      | Yes      |
-| Set            | No       | No       |
-| Dictionary     | No       | Yes      |
+| Functionality | List | Tuple | Set | Dictionary |
+| --- | --- | --- | --- | --- |
+| Indexing | Yes | Yes | No | Yes |
+| Ordering | Yes | Yes | No | No |
+| Duplication | Yes | Yes | No | No |
+
