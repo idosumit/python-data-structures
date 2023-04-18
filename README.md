@@ -11,11 +11,15 @@ Easy explanation for Tuple, List, Set, and Dictionary in Python
 
 | Functionality | List | Tuple | Set | Dictionary |
 | --- | --- | --- | --- | --- |
-| Ordered | ✕ | ✓ | ✕ | ✓ |
-| Indexed | ✓ | ✓ | ✕ | ✓ |
+| Ordered | ✓ | ✓ | ✕ | ✓¹ |
+| Indexed | ✓ | ✓ | ✕ | ✕² |
 | Duplicate Elements | ✓ | ✓ | ✕ | Keys Only |
 | Mutable | ✓ | ✕ | ✓ | ✓ |
 | Hashable | ✕ | ✓ | ✓ | Keys Only |
+
+¹ Starting from Python 3.7, dictionaries are ordered by default due to their implementation. However, it is important to note that this is a language-specific detail, and relying on the order of dictionaries is not recommended in general. For guaranteed ordering, we should consider using `collections.OrderedDict`.
+
+² Dictionaries are not indexed, but we can access their values using keys.
 
 #
 
