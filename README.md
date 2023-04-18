@@ -14,4 +14,6 @@ Easy explanation for Tuple, List, Set, and Dictionary in Python
 | Indexing | Yes | Yes | No | Yes |
 | Ordering | Yes | Yes | No | No |
 | Duplication | Yes | Yes | No | No |
+| Mutability | Yes | No | Yes | Yes |
+
 
