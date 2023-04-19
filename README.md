@@ -1,5 +1,5 @@
 # Python Data Structures
-Easy explanation for Tuple, List, Set, and Dictionary in Python.
+Easy explanation for Tuple, List, Set, and Dictionary in Python as I expand on my markdown note-taking ability.
 
 ## Each Data Structure in Detail
 
