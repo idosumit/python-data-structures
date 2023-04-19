@@ -57,7 +57,8 @@ Sets themselves are not hashable, but their elements must be hashable. In other 
 
 ```python
 s = {1, 2, 3}
-print(hash(s))  # This raises a TypeError because sets are not hashable. However, the elements inside s are hashable.
+print(hash(s))  # This raises a TypeError because sets are not hashable.
+                # However, the elements inside s are hashable.
 
 ```
 
