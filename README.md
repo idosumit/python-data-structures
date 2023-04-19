@@ -5,6 +5,8 @@ Easy explanation for Tuple, List, Set, and Dictionary in Python.
 
 ### [Tuples](https://github.com/psumitcode/python-data-structures/blob/main/Tuples.md)
 
+#### Coming soon: Lists, Dictionaries, Sets
+
 #
 
 Note: This README file provides a quick summary of some important elements that are synonymous to most or all of the data structures. For details regarding each, please refer to the hyperlinks inside `Each Data Structure in Detail` section.
