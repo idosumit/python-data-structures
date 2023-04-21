@@ -1,11 +1,11 @@
 # Python Data Structures
 Easy explanation for Tuple, List, Set, and Dictionary in Python as I expand on my markdown note-taking ability.
 
-## Each Data Structure in Detail
+### [1. Tuples](https://github.com/psumitcode/python-data-structures/blob/main/Tuples.md)
 
-### [Tuples](https://github.com/psumitcode/python-data-structures/blob/main/Tuples.md)
+### [2. Lists](https://github.com/psumitcode/python-data-structures/blob/main/Lists.md)
 
-#### Coming soon: Lists, Dictionaries, Sets
+#### Coming soon: Dictionaries, Sets
 
 #
 
