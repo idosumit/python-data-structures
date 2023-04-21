@@ -5,20 +5,20 @@
 In this table, we will compare and contrast the functionalities of Tuple: an ordered, immutable collection of values that can be of any data type.
 A description of each functionality is provided, along with easy, medium, and sophisticated examples to illustrate how it can be used.
 
-| Functionality | Description                                       | Example (Easy)                 | Example (Medium)                | Example (Sophisticated)             |
-|---------------|---------------------------------------------------|--------------------------------|---------------------------------|------------------------------------|
-| Declaration   | Creating a tuple                                  | `my_tuple = (1, 2, 3)`         | `my_tuple = ('apple', 'banana', 'cherry')` | `my_tuple = (10, 'hello', [1, 2, 3])` |
-| Accessing Elements | Accessing elements in a tuple                | `print(my_tuple[0])`           | `print(my_tuple[-1])`            | `print(my_tuple[1])`                |
-| Length        | Finding the length of a tuple                     | `print(len(my_tuple))`         | `print(len(my_tuple))`           | `print(len(my_tuple))`              |
-| Concatenation | Concatenating two tuples                          | `tuple3 = tuple1 + tuple2`     | `tuple3 = tuple1 + tuple2`      | `tuple3 = tuple1 + tuple2`          |
-| Repetition    | Creating a new tuple by repeating an existing tuple| `tuple2 = my_tuple * 2`        | `tuple2 = my_tuple * 3`         | `tuple2 = my_tuple * 4`             |
-| Membership    | Checking if an element is present in a tuple       | `print(3 in my_tuple)`         | `print('orange' not in my_tuple)`| `print('hello' in my_tuple)`        |
-| Index         | Finding the first index of a specified value       | `print(my_tuple.index('apple'))`| `print(my_tuple.index('banana'))`| `print(my_tuple.index(10))`       |
-| Count         | Counting the number of occurrences of a specified value in a tuple | `print(my_tuple.count(1))` | `print(my_tuple.count('cherry'))`| `print(my_tuple.count([1, 2, 3]))` |
-| Slicing       | Extracting a subset of a tuple                     | `print(my_tuple[1:3])`         | `print(my_tuple[::2])`           | `print(my_tuple[1:-1])`             |
-| Unpacking     | Unpacking values from a tuple into variables       | `a, b, c = my_tuple`           | `x, y, z = my_tuple`             | `p, q, r = my_tuple`                |
-| Immutability  | Values in a tuple cannot be changed once created   | `my_tuple[1] = 4`              | `del my_tuple[1]`               | `my_tuple[2][0] = 4`                |
-| Comparison    | Comparing tuples lexicographically                 | `tuple1 < tuple2`              | `tuple1 > tuple2`               | `tuple1 < tuple2`                   |
+| Functionality | Description                                       | Example (Easy)                 |  Example (Sophisticated)             |
+|---------------|---------------------------------------------------|--------------------------------|------------------------------------|
+| Declaration   | Creating a tuple                                  | `my_tuple = (1, 2, 3)`         |  `my_tuple = (10, 'hello', [1, 2, 3])` |
+| Accessing Elements | Accessing elements in a tuple                | `print(my_tuple[0])`           |  `print(my_tuple[1])`                |
+| Length        | Finding the length of a tuple                     | `print(len(my_tuple))`         |  `print(len(my_tuple))`              |
+| Concatenation | Concatenating two tuples                          | `tuple3 = tuple1 + tuple2`     |  `tuple3 = tuple1 + tuple2`          |
+| Repetition    | Creating a new tuple by repeating an existing tuple| `tuple2 = my_tuple * 2`        |  `tuple2 = my_tuple * 4`             |
+| Membership    | Checking if an element is present in a tuple       | `print(3 in my_tuple)`         |  `print('hello' in my_tuple)`        |
+| Index         | Finding the first index of a specified value       | `print(my_tuple.index('apple'))`| `print(my_tuple.index(10))`       |
+| Count         | Counting the number of occurrences of a specified value in a tuple | `print(my_tuple.count(1))` | `print(my_tuple.count([1, 2, 3]))` |
+| Slicing       | Extracting a subset of a tuple                     | `print(my_tuple[1:3])`         |  `print(my_tuple[1:-1])`             |
+| Unpacking     | Unpacking values from a tuple into variables       | `a, b, c = my_tuple`           |  `p, q, r = my_tuple`                |
+| Immutability  | Values in a tuple cannot be changed once created   | `my_tuple[1] = 4`              |  `my_tuple[2][0] = 4`                |
+| Comparison    | Comparing tuples lexicographically                 | `tuple1 < tuple2`              |  `tuple1 < tuple2`                   |
 
 #
 
