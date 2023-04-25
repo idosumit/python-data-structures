@@ -20,6 +20,7 @@ Note: This README file provides a quick summary of some important elements that 
 | Duplicate Elements | ✓ | ✓ | ✕ | Keys Only |
 | Mutable | ✓ | ✕ | ✓ | ✓ |
 | Hashable | ✕ | ✓ | ✕³ | Keys Only |
+| Looping | ✓ | ✓ | ✓ | Keys Only |
 
 ¹ Starting from Python 3.7, dictionaries are ordered by default due to their implementation. However, it is important to note that this is a language-specific detail, and relying on the order of dictionaries is not recommended in general. For guaranteed ordering, we should consider using `collections.OrderedDict`. For details, see [OrderedDict](https://github.com/psumitcode/python-data-structures/blob/main/OrderedDict.md).
 
